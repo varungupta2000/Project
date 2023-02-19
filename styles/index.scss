@@ -1,0 +1,44 @@
+@use 'base';
+
+html {
+    scroll-behavior: smooth;
+}
+
+.goog-te-gadget {
+    color: #000000 !important;
+}
+
+.goog-te-gadget span a {
+    font-weight: 400 !important;
+    color: #000000 !important;
+}
+
+.goog-te-gadget span a img {
+    display: none;
+}
+
+.goog-te-combo {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url('/assets/svg/DownWhite.svg');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 16px);
+    background-position-y: 50%;
+    background-color: #000000 !important;
+    border: 1px solid #ffffff !important;
+    font-size: 10pt;
+    width: 200px;
+    color: #ffffff !important;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 10px 16px !important;
+    cursor: pointer;
+    zoom: 1;
+}
+
+.goog-te-combo:focus-visible {
+    outline: none;
+}

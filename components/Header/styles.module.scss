@@ -1,0 +1,9 @@
+@use '../../styles/theme' as *;
+
+.abc {
+    background-color: green;
+
+    @include breakpoints('xl-tab') {
+        background-color: red;
+    }
+}
